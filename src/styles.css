@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: justify;
+  margin: 2rem;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: #f3f4f6;
+}
+
+body {
+  background-color: #e5e7eb;
+  margin: 5rem;
+}
+
+hr {
+  background-color: #d1d5db;
+}
