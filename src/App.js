@@ -75,12 +75,12 @@ export default function App() {
                 }}
               >
                 <div style={{ fontSize: "larger", margin: "0.5rem" }}>
-                  {" "}
-                  {food.title}{" "}
+                  
+                  {food.title}
                 </div>
                 <div style={{ fontSize: "smaller", margin: "0.5rem" }}>
-                  {" "}
-                  {food.rating}{" "}
+                  
+                  {food.rating}
                 </div>
               </li>
             ))}
