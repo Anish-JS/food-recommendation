@@ -3,8 +3,9 @@ import { useState } from "react";
 
 const foodDB = {
   Indian: [
-    { title: "Hyderabadi Dum Biryani", rating: "4/5" },
-    { title: "Paneer Butter Masala", rating: "3.5/5" }
+    { title: "Hyderabadi Dum Biryani", rating: "4.5/5" },
+    { title: "Paneer Butter Masala", rating: "3.5/5" },
+    { title:"Tandoori Chicken", rating:"4.2/5" }
   ],
 
   Continental: [
@@ -15,6 +16,10 @@ const foodDB = {
     {
       title: "Burger",
       rating: "4.5/5"
+    },
+    {
+      title:"Lasagne",
+      rating:"3.5/5"
     }
   ],
   Italian: [
@@ -25,6 +30,10 @@ const foodDB = {
     {
       title: "pizza",
       rating: "5/5"
+    },
+    {
+      title:"Spagetti",
+      rating:"4.5/5"
     }
   ]
 };
